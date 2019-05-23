@@ -16,7 +16,7 @@ frappe.provide("bdtheme");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "bdoop Erp";
+	frappe.app.name = "NHC ERP";
 	$('.navbar-home').html(frappe._('Home'));
 
 });
